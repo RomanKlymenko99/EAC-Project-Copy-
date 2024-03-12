@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Error from './pages/404/404'
 import Accaunt from './pages/Account/accaunt';
+import Settings from './pages/Settings/settings';
 
 /*
 import React, {useState, useEffect} from 'react'
@@ -42,6 +43,7 @@ class App extends React.Component {
           <Route exact path="/" Component={Home}/>
           <Route path="*" Component={Error}/>
           <Route path='/accaunt-settings' Component={Accaunt}/>
+          <Route exact path="/settings" Component={Settings}/>
         </Routes>
       </Router>
     </div>
