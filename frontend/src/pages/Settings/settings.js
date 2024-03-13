@@ -39,7 +39,7 @@ export class Settings extends Component {
         </div> </a>
 
         <a href="/privacy" className='text'>   <div className='rectangle2'>
-          <img src='./img/world.png' alt='' className='icons1'/>
+          <img src='./img/Group.png' alt='' className='icons'/>
           <div className='textelem'>Language</div>
         </div> </a>
 
